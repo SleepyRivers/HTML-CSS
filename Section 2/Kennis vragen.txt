@@ -1,0 +1,7 @@
+1. Html met de <>
+2. Head komt boven aan, body in het midde
+3. dit geeft aan dat de code moet gelezen worden in HTML style
+4. Een foto of link
+5. <img> 
+6. <A>
+7. Extern is online, Intern staat bij de pagina in de files
