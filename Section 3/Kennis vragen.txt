@@ -1,0 +1,17 @@
+1. Casading Style Sheets
+2. Styles maken in HTML
+3. HTML is wat waar moet, CSS hoe het eruit ziet
+4. 3 manieren
+5. Direct in het element, in de class or apart in een document
+6. Apart, is netter
+7. Dit selecteert alle elemeneten met de zelfde naam
+8. Dit legt uit an de pc hoe het moet 
+9. Hiervan kun je een groep maken
+10. de text is aangepast met beide margins
+11.
+12.
+13.
+14.
+15.
+16.
+17.
