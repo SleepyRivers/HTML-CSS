@@ -8,10 +8,10 @@
 8. Dit legt uit an de pc hoe het moet 
 9. Hiervan kun je een groep maken
 10. de text is aangepast met beide margins
-11.
-12.
-13.
-14.
-15.
-16.
-17.
+11. een extra variable, meerdere gebruik
+12. een extra variable, enkel gebruik
+13. Class kan je meerdere keren gebruiken id eenmalig
+14. Padding is alles binnen het element,Margin buiten
+15. Neemt iets van 1 box over voor zichzelf
+16. Blocks nemen de hele pagina wijdte op, inlines niet
+17. Een Ruimtemaker
