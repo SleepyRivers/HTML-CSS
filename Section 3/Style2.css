@@ -1,0 +1,20 @@
+p, p2 {
+color: blue;
+}
+
+h1, p3, p4{
+color: green;
+}
+
+h2{
+    color: red;
+}
+p4, p2, h2{
+    font-family: sans-serif;
+}
+p4{
+    font-size: 70px;
+}
+p2{
+    font-size: 20px;
+}
