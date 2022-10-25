@@ -1,0 +1,13 @@
+* {
+    font-size: 12px;
+   word-spacing: 2px;
+}
+h1 {
+    font-weight: bold;
+    color: green;
+}
+
+p {
+ color: lightgreen;
+ line-height: 20px;
+}
