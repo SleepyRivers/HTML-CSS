@@ -1,0 +1,129 @@
+.one{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.two{
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 300px;
+    height: 100px;
+    background-color: red;
+}
+
+.three{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+}
+
+.four{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: mediumaquamarine;
+    color: mediumseagreen;
+}
+
+.five{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: mediumseagreen;
+}
+
+.six{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+}
+
+.seven{
+    position: absolute;
+    left: 0px;
+    top: 200px; 
+ width: 300px;
+ height: 100px;
+ background-color: gray;
+}
+
+.eight{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+ width: 300px;
+ height: 100px;
+ background-color: pink;
+}
+
+.nine{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+ width: 300px;
+ height: 100px;
+ background-color: orange;
+}
+
+.nine p9{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.eight p8{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.seven p7{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.six p6{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.five p5{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 12px;
+}
+.four p4{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.three p3{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.two p2{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.one p{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
