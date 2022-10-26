@@ -1,0 +1,31 @@
+1. Een plan maken, Code editor downloaden, Resources vinden
+2. Hoe goed iets werkt
+3.
+4.
+5.
+6.
+7.
+8.
+9. Comments laat je achter om iets te verduidelijken
+10. 
+11.
+12.
+13.
+14. afstand van de rand binnen een content-box
+15. afstand van de rand buiten een content-box
+16. Margins werkt met de content om zich heen, padding binnen in
+17.
+18.
+19. Relative waarde past zich dynamies aan, bvb hoogte, breedte en positie
+20. Absolute waarden staan vast. maakt niet uit wat je doet, bvb hoogte, breedte en positie
+21. 
+22.
+23.
+24.
+25.
+
+vragen van de opdracht:
+4 . Content 1 A en content 2 B 
+5. met heel wat moeite, een headline of Paragraph met deze of een foto
+6. Dit importeert externe styles
+7. Ik heb de page open als ik bezig ben en refresh deze na elke change

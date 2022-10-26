@@ -1,0 +1,23 @@
+*{
+    color: orange;
+    letter-spacing: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+.foto1{
+    float: left;
+}
+
+.foto2{
+ float: left;
+}
