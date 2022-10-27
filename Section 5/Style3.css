@@ -1,3 +1,4 @@
+
 h1{
 text-decoration-line: underline; 
 text-decoration-color: orange;
@@ -6,13 +7,14 @@ text-decoration-color: orange;
 input,select,button, textarea {
 border: 1px solid;
 border-color: orange;
+
 }
 
 .Input,select{
    position: relative;
     width: 200px;
     height: 24px;
-    margin: 5px;
+    margin: 5px; 
 }
 
 .tijger{
