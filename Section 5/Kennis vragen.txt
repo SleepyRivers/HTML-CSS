@@ -1,9 +1,9 @@
 1. Een plan maken, Code editor downloaden, Resources vinden
 2. Hoe goed iets werkt
-3.
+3. Een website die reageert op wat je doet
 4.
 5.
-6.
+6. 
 7.
 8.
 9. Comments laat je achter om iets te verduidelijken
@@ -29,3 +29,6 @@ vragen van de opdracht:
 5. met heel wat moeite, een headline of Paragraph met deze of een foto
 6. Dit importeert externe styles
 7. Ik heb de page open als ik bezig ben en refresh deze na elke change
+
+Vaardigheids opdracht vragen:
+2. De  Media Query verandert de achterground kleur gebazeerd op hoe groot de pagina is

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: mukta;
+    src: url(Fonts/Mukta-Regular.ttf);
+}
+
+*{
+    font-family: mukta;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+@media screen and (min-width: 400px ) {
+  body{
+    background-color: lightgreen;
+  }  
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        background-color: lavender;
+    }
+}
+
+.Centerd{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 50%;
+}
