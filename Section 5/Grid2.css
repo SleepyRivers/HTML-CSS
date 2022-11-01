@@ -9,18 +9,29 @@
 
 body {
     background-color: lightcoral;
-    background-size: cover;
+    height: 100%;
+    background-size: 50% auto;
+    top: 0;
+    left: 0;
 }
 
 @media screen and (min-width: 400px ) {
   body{
     background-color: lightgreen;
+    height: 100%;
+    background-size: 50% auto;
+    top: 0;
+    left: 0;
   }  
 }
 
 @media screen and (min-width: 800px) {
     body{
         background-color: lavender;
+        height: 100%;
+        background-size: 50% auto;
+        top: 0;
+        left: 0;
     }
 }
 

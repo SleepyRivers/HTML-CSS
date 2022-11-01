@@ -3,10 +3,10 @@ text-decoration-line: underline;
 text-decoration-color: orange;
 }
 
-input,select,button, textarea {
+input,select,button,textarea{
 border: 1px solid;
 border-color: orange;
-
+left: 50%;
 }
 
 .Input,select{
