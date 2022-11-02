@@ -1,0 +1,10 @@
+body{
+  background-color: aquamarine;
+}
+
+.Side{
+ position: absolute;
+  top: 10%;
+  right: 0%;
+  
+}

@@ -32,3 +32,5 @@ vragen van de opdracht:
 
 Vaardigheids opdracht vragen:
 2. De  Media Query verandert de achterground kleur gebazeerd op hoe groot de pagina is
+6. style= text-transform:uppercase
+7. style= text-transform:lowercase
