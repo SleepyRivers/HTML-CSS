@@ -4,7 +4,21 @@ body{
 
 .Side{
  position: absolute;
-  top: 10%;
+  top: 0%;
   right: 0%;
+}
+ 
+.Top{
+  position: relative;
+  left: 5%;
   
+}
+
+.Bottom{
+  position: relative;
+  left: 5%;
+}
+
+.zoom:hover{
+  transform: scale(1.2);
 }

@@ -1,0 +1,25 @@
+.midd{
+  margin: 0;
+  position: absolute;            
+  top: 50%;      
+  left: 50%;                   
+  transform: translate(0, -50%) }   
+
+  .eev{
+    margin: 0;
+    position: absolute;
+   top: 30%;
+   left: 20%;
+  }
+
+  button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
