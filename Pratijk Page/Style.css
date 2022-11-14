@@ -13,8 +13,8 @@
   }
 
  .eev:hover{
-  transition: 300ms ease all;
-  transform: rotate(50deg);
+  transition: 2000ms ease all;
+  transform: rotate(2160deg);
   
  }
 
