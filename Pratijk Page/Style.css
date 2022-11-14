@@ -1,0 +1,96 @@
+.midd{
+  margin: 0;
+  position: absolute;            
+  top: 50%;      
+  left: 50%;                   
+  transform: translate(0, -50%) }   
+
+  .eev{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+
+ .eev:hover{
+  transition: 300ms ease all;
+  transform: rotate(50deg);
+  
+ }
+
+ 
+ .vapor{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  
+}
+
+.flare{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  
+}
+
+.jolt{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  
+}
+
+.esp{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  
+}
+
+.umb{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  
+}
+
+.glac{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  
+}
+
+.leaf{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  
+}
+
+.sylv{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  
+}
+
+  button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
