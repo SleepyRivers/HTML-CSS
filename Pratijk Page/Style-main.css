@@ -56,6 +56,11 @@
   margin: 10px;
 }
 
+.home{
+ position: absolute;
+ bottom: 0%;
+}
+
   button {
     background-color: #04AA6D;
     border: none;
