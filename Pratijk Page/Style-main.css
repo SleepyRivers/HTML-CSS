@@ -5,11 +5,10 @@
 }
 
 .midd{
-  margin: 0;
-  position: absolute;            
-  top: 50%;      
-  left: 48%;                   
-  transform: translate(0, -50%);
+  margin: auto;
+  width: 50%; 
+  text-align: center;
+
 }   
 
  
@@ -71,4 +70,8 @@
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
+  }
+
+  p2{
+    margin: 10px;
   }
