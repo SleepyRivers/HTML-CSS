@@ -1,3 +1,7 @@
+body{
+  min-height: 100vh;
+}
+
 .eevcluster{
   display: flex;
   flex-direction: row;
@@ -5,19 +9,32 @@
 }
 
 .midd{
-  margin: auto;
-  width: 50%; 
-  text-align: center;
-
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }   
 
  
  .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
-  transition: 2500ms ease all;
-  transform: rotate(360deg);
+    
+    animation: rotation 0.001s infinite linear;
+    
   
  }
+ 
 
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+      
+  }
+  to {
+      transform: rotate(360deg);
+     
+  }
+}
+
+ 
  .eev{
   margin: 10px;
 }
@@ -71,6 +88,11 @@
     font-size: 16px;
     border-radius: 12px;
   }
+
+ button:hover{
+  animation-duration: 1s;
+  opacity: 0;
+ }
 
   p2{
     margin: 10px;
