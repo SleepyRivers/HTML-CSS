@@ -1,6 +1,6 @@
 body{
   min-height: 100vh;
-  background-color: rgb(179, 0, 176);
+  background-color: rgb(43, 99, 230);
 }
 
 .eevcluster{
@@ -14,7 +14,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ff74bc
+  color: #96ff59
 }   
 
 .WhiteSpace{
@@ -75,7 +75,7 @@ body{
 }
 
   button {
-    background-color: #da2929;
+    background-color: #38ffa5;
     border: none;
     color: white;
     padding: 20px;

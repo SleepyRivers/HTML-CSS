@@ -1,6 +1,6 @@
 body{
   min-height: 100vh;
-  background-color: rgb(179, 0, 176);
+  background-color: rgb(246, 133, 190);
 }
 
 .eevcluster{
@@ -14,7 +14,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ff74bc
+  color: #892346
 }   
 
 .WhiteSpace{
@@ -44,8 +44,10 @@ body{
   transform: rotate(-15deg);
   
 }
+
 }
- .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
+
+.eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
     
     animation: rotation 2s infinite linear;
     
@@ -75,7 +77,7 @@ body{
 }
 
   button {
-    background-color: #da2929;
+    background-color: #f960d2;
     border: none;
     color: white;
     padding: 20px;

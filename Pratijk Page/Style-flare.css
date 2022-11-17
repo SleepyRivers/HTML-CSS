@@ -27,7 +27,24 @@ body{
 .BigImage{
   scale: 1.5;
 }
+.BigImage{
+  animation: wiggle 2s infinite;
+}
 
+@keyframes wiggle{
+0% {
+    transform: rotate(-15deg);
+    
+}
+50% {
+    transform: rotate(15deg);
+    
+}
+100% {
+  transform: rotate(-15deg);
+  
+}
+}
  .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
     
     animation: rotation 2s infinite linear;
