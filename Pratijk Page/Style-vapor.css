@@ -1,5 +1,6 @@
 body{
   min-height: 100vh;
+  background-color: rgb(63, 206, 194);
 }
 
 .eevcluster{
@@ -8,18 +9,24 @@ body{
   flex-wrap: wrap;
 }
 
-.midd{
+.midd, .BigImage{
   display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #2c4efb
 }   
 
 .WhiteSpace{
   display: grid;
   justify-content: center;
-  height: 15vh;
+  height: 5vh;
+  width: 100vh;
 } 
+
+.BigImage{
+  scale: 1.5;
+}
 
  .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
     
@@ -51,7 +58,7 @@ body{
 }
 
   button {
-    background-color: #04AA6D;
+    background-color: #d03afa;
     border: none;
     color: white;
     padding: 20px;
