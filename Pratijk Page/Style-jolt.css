@@ -26,74 +26,62 @@ body{
 
 .BigImage{
   scale: 1.5;
-}
-.BigImage{
-  animation: wiggle 2s infinite;
+  animation: wiggle 1.7s infinite;
 }
 
 @keyframes wiggle{
 0% {
     transform: rotate(-15deg);
-    
 }
 50% {
     transform: rotate(15deg);
-    
 }
 100% {
   transform: rotate(-15deg);
-  
 }
 }
- .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
-    
-    animation: rotation 2s infinite linear;
-    
- }
 
+.eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
+  animation: rotation 2s infinite linear;
+}
 
 @keyframes rotation {
   from {
-      transform: rotate(0deg);
-      
+      transform: rotate(0deg);  
   }
   to {
       transform: rotate(360deg);
-     
   }
 }
 
- 
- .eev, .vapor, .flare, .jolt, .umb, .esp, .glac, .leaf, .sylv{
+.eev, .vapor, .flare, .jolt, .umb, .esp, .glac, .leaf, .sylv{
   margin: 10px;
 }
-
 
 .home{
  position: absolute;
  bottom: 0%;
 }
 
-  button {
-    background-color: #90ff58;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    width: 100%;
-  }
+button {
+  background-color: #90ff58;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+}
 
- button:hover{
-    animation: shake 0.5s;
-    animation-iteration-count: infinite;
-  
- }
+button:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 
- @keyframes shake {
+@keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -107,6 +95,6 @@ body{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-  p2{
-    margin: 10px;
-  }
+p2{
+  margin: 10px;
+}
