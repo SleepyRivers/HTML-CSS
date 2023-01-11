@@ -1,0 +1,100 @@
+body{
+  min-height: 100vh;
+  background-color: rgb(26, 216, 55);
+}
+
+.eevcluster{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.midd, .BigImage{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #d7ff86
+}   
+
+.WhiteSpace{
+  display: grid;
+  justify-content: center;
+  height: 5vh;
+  width: 100vh;
+} 
+
+.BigImage{
+  scale: 1.5;
+  animation: wiggle 2.05s infinite;
+}
+
+@keyframes wiggle{
+0% {
+    transform: rotate(-15deg);
+}
+50% {
+    transform: rotate(15deg);
+}
+100% {
+  transform: rotate(-15deg);
+}
+}
+
+.eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{    
+  animation: rotation 2s infinite linear;    
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);      
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.eev, .vapor, .flare, .jolt, .umb, .esp, .glac, .leaf, .sylv{
+  margin: 10px;
+}
+
+.home{
+ position: absolute;
+ bottom: 0%;
+}
+
+button {
+  background-color: #00ba47;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+button:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+p2{
+  margin: 10px;
+}

@@ -1,0 +1,70 @@
+.eevcluster{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.midd{
+  margin: 0;
+  position: absolute;            
+  top: 50%;      
+  left: 50%;                   
+  transform: translate(0, -50%);
+}   
+
+ 
+ .eev:hover, .flare:hover, .vapor:hover, .jolt:hover, .umb:hover, .esp:hover, .glac:hover, .leaf:hover, .sylv:hover{
+  transition: 2000ms ease all;
+  transform: rotate(1080deg);
+  
+ }
+
+ .eev{
+  margin: 10px;
+}
+
+ 
+ .vapor{
+  margin: 10px;
+}
+
+.flare{
+  margin: 10px;
+}
+
+.jolt{
+  margin: 10px;
+}
+
+.esp{
+  margin: 10px;
+}
+
+.umb{
+  margin: 10px;
+}
+
+.glac{
+  margin: 10px;
+}
+
+.leaf{
+  margin: 10px;
+}
+
+.sylv{
+  margin: 10px;
+}
+
+  button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+  
