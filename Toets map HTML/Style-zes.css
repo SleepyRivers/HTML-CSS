@@ -1,0 +1,62 @@
+.Shapes{
+  display: flex;
+  flex-wrap: wrap;
+width: 300px;
+height: 400px;
+}
+
+.A{
+width: 200px;
+height: 200px;
+}
+
+.B{
+  height: 200px;
+  width: 100px;
+}
+
+.C{
+  height: 200px;
+  width: 100px;
+}
+
+.D{
+  width: 200px;
+  height: 100px;
+}
+
+.E{
+  position: relative;
+  left: 100px;
+  top: -100px;
+  width: 100px;
+  height: 100px;
+}
+
+.F{
+  position: relative;
+  left: 0px;
+  top: -100px;
+  width: 200px;
+  height: 100px;
+}
+
+.G{
+  position: relative;
+  left: 200px;
+  top: -300px;
+  width: 100px;
+  height: 200px;
+}
+
+.C, .F{
+  background-color: red;
+}
+
+.A, .D, .G{
+  background-color: blue;
+}
+
+.B, .E{
+  background-color: green;
+}

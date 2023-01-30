@@ -1,0 +1,28 @@
+
+
+.red, .blue, .green{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0;
+}
+
+.Shapes{
+  width: 285px;
+  height: 271px;
+}
+
+.bigblue{
+  width: 285px;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue, .bigblue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}

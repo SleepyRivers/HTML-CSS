@@ -1,0 +1,46 @@
+.Red, .Red2{
+  background-color: red;
+}
+
+.Blue, .Blue2{
+  background-color: blue;
+}
+
+.Green, .Green2{
+  background-color: green;
+}
+
+.Yellow, .Yellow2{
+  background-color: yellow;
+}
+
+.Shapes{
+ display: flex;
+ flex-direction: column;
+ width: 200px;
+ height: 200px;
+}
+
+.Shapes2{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  width: 200px;
+  height: 200px;
+}
+
+.Red, .Blue, .Green, .Yellow{
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Red2, .Blue2, .Green2, .Yellow2{
+  height: 200px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top: -200px;
+}
