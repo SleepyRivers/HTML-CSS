@@ -6,7 +6,7 @@ function alerto(){
 testingPress.addEventListener("click", alerto);
 
 
-function RollDice(){
+function RolledDice(){
     var Dice1 = document.getElementsByClassName("Dice1");
     var Dice2 = document.getElementsByClassName("Dice2");
     var Dice3 = document.getElementsByClassName("Dice3");
@@ -33,6 +33,8 @@ function RollDice(){
     Dice3.innerHTML = DiceThree;
     Dice4.innerHTML = DiceFour;
     Dice5.innerHTML = DiceFive;
+
+    console.log("Rolled " + Total);
 }
 
 var Counting = 0;
