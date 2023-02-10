@@ -34,7 +34,7 @@ function RolledDice(){
     Dice4.innerHTML = DiceFour;
     Dice5.innerHTML = DiceFive;
 
-    console.log("Rolled " + Total);
+    console.log("Rolled " + DiceOne + DiceTwo + DiceThree + DiceFour + DiceFive);
 }
 
 var Counting = 0;
