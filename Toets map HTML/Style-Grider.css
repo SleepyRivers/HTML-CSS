@@ -1,31 +1,26 @@
-*{
+.Shapes{
   display: grid;
-  grid-template-columns: repeat(2, 150px);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 0;
 }
 
-.red, .blue, .green{
-  width: 150px;
-  height: 20px;
-}
-
-.shapes{
-  width: 300px;
-  height: 80px;
-}
-
 .bigblue{
- width: 300px;
+  align-content: stretch;
+  
 }
 
 .red{
   background-color: red;
-}
+  min-width: 300px;
+}  
 
 .blue, .bigblue{
   background-color: blue;
+  min-width: 300px;
 }
 
 .green{
   background-color: green;
+  min-width: 300px;
 }

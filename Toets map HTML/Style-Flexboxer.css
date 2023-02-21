@@ -1,25 +1,27 @@
-*{
+.FunnyBox{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.red, .blue, .green{
-  width: 300px;
+  max-width: 900px;
+  min-width: 300px;
 }
 
 .bigblue{
-  width: 900px;
+  flex-grow: 1;
+  max-width: 100%;
 }
 
 .red{
   background-color: red;
-}
+  min-width: 300px;
+}  
 
 .blue, .bigblue{
   background-color: blue;
+  min-width: 300px;
 }
 
 .green{
   background-color: green;
+  min-width: 300px;
 }
