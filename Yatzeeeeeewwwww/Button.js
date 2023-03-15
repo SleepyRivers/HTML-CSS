@@ -7,13 +7,13 @@ testingPress.addEventListener("click", alerto);
 
 
 function RolledDice(){
-    var Dice1 = document.getElementsByClassName("Dice1");
-    var Dice2 = document.getElementsByClassName("Dice2");
-    var Dice3 = document.getElementsByClassName("Dice3");
-    var Dice4 = document.getElementsByClassName("Dice4");
-    var Dice5 = document.getElementsByClassName("Dice5");
+    var Dice1 = document.getElementById("Dice1");
+    var Dice2 = document.getElementById("Dice2");
+    var Dice3 = document.getElementById("Dice3");
+    var Dice4 = document.getElementById("Dice4");
+    var Dice5 = document.getElementById("Dice5");
 
-    var Total = document.getElementsByClassName("Total");
+    var Total = document.getElementById("Total");
     var Yatsea = document.getElementsByClassName("Yatsea");
 
     var DiceOne = Math.floor(Math.random()*6) + 1;
@@ -42,6 +42,6 @@ var Counting = 0;
 function ClickedDice(){
     Counting++;
     var button = document.getElementsByClassName("PressMe");
-    var display = document.getElementsByClassName("displayCount");
+    var display = document.getElementById("displayCount");
     display.innerHTML = Counting;
 }
